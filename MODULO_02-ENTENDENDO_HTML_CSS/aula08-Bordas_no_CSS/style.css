@@ -1,0 +1,77 @@
+#titulo{
+    color: blueviolet;
+    border-bottom: 5px solid orangered;
+    width: 300px;
+    border-radius: 150px;
+    /*UTILIZADO PARA ALINHAR O TEXTO NO MEIO/CENTRO*/
+    text-align: center;
+}
+
+/*TRABALHANDO BORDAS*/
+.um{
+    /*NAS BORDAS SÃO UTILIZADAS 3 PROPRIEDADES*/
+    /*PIXEL OU TAMANHO*/
+    /*O TIPO DE BORDA*/
+    /*COR*/
+    /*COLOCANDO SÓ 'border' É APLICADO PARA TODOS OS LADOS*/
+    border: 5px solid #18c55b;
+}
+.dois{
+    border: 5px ridge #18c55b;
+}
+.tres{
+    border: 5px outset #18c55b;
+}
+.quatro{
+    border: 5px double #18c55b;
+}
+.cinco{
+    border: 5px dotted #18c55b;
+}
+.seis{
+    border: 5px inset #18c55b;
+}
+.sete{
+    border: 5px dashed #18c55b;
+}
+.oito{
+    border: 5px groove #18c55b;
+}
+
+
+.cima{
+    border-top: 5px groove #c51818;
+}
+.baixo{
+    border-bottom: 5px groove #c51818;
+}
+.direita{
+    border-right: 5px groove #c51818;
+}
+.esquerda{
+    border-left: 5px groove #c51818;
+}
+
+
+.raio{
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+
+.circulo{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    /*PARA FAZER UM CIRCULO BASTA COLOCAR UMA BORDA PEGANDO A METADA DO TAMANHO DEFINIDO*/
+    border-radius: 100px;
+}
+
+
+.circuloBorda{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid black;
+}
