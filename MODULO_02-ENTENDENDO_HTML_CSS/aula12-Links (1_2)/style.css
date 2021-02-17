@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+.link{
+    width: 400px;
+    max-height: 100px;
+}
+
+img{
+    width: inherit;
+    height: 100px;
+}
+
+h1:hover{/*AO PASSAR O MOUSE POR CIMA É ALTERADO A COR*/
+    color: lawngreen;
+}
+
+h1:visited{/*SE O LINK JÁ FOI VISITADO VAI FICAR NESSA COR*/
+    color: rgb(197, 235, 160);
+}
