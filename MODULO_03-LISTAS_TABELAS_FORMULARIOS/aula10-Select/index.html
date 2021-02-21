@@ -35,15 +35,24 @@
 
                 <div class="conteudo">
 
-                    <h2>Dados Recebidos</h2>
-                    <form action="cadastro.html" method="POST">
-                      
+                    <!--CONSULTE O COMPORTAMENTO PELA URL POIS O MÉTODO UTILIZADO AQUI É O GET-->
+                    <form action="index2.html" method="GET">
+                        <select name="opcao">
+                            <!--ATENÇÃO!!!-->
+                            <option>Todos vendidos</option>
+                            <!--SE NÃO COLOCAR NADA NO OPTION É ENVIADO O DADO ENTRE A TAG-->
+
+                            <!--AGORA SE RECEBER O ATRIBUTO VALUE, SERÁ ENVIADO O VALOR DENTRO DO VALUE!!! -->
+                            <option value="esseSeraEnviado">Mais vendidos</option>
+                            <option>Menos vendidos</option>
+
+                            <!--ATRIBUTO QUE DEFINI O QUE SERÁ SELECIONADO POR PADRÃO-->
+                            <option selected>Nenhum vendido</option>
+                        </select>
+                        <input type="submit">
                     </form>
 
                 </div>
-
-                <br><br><br>
-                <a href="index.html"><h1 class="decoration">Voltar</h1></a>
 
             </div>
 
