@@ -38,21 +38,12 @@ p{
     margin: auto;
 }
 
-.links{
-    /*background-color: chocolate;*/
-    height: 120px;
-}
-
-.ou{
-    /*background-color: chocolate;*/
-    height: 100px;
-}
-
 .ou1{
     /*background-color: darkgreen;*/
     width: 150px;
     height: 100px;
     margin: auto;
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -72,7 +63,7 @@ span{
 }
 
 input[type="text"]{
-    width: 350px;
+    width: 345px;
     padding: 15px;
     border-radius: 50px;
     outline: 0px;
@@ -81,7 +72,7 @@ input[type="text"]{
 }
 
 input[type="password"]{
-    width: 350px;
+    width: 345px;
     padding: 15px;
     border-radius: 50px;
     outline: 0px;
@@ -90,7 +81,7 @@ input[type="password"]{
 }
 
 button{
-    /*background-color: deepskyblue;*/
+    background-color: deepskyblue;
     width: 160px;
     padding: 15px;
     border-radius: 50px;
@@ -112,4 +103,5 @@ form{
 
 .msg{
     text-align: right;
+    margin-right: 10px;
 }
