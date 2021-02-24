@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0px;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.decoration{
+    width: 170px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 50px;
+    padding: 2px;
+    text-align: center;
+}
+
+.decoration:hover{
+    color: white;
+}
+
+.estrutura{
+    width: 82%;
+    margin: auto;
+}
+
+h1{
+    color: rgba(3, 3, 3, 0.918);
+    font-size: 40px;
+    font-family: 'Roboto'
+}
+
+.conteudo{
+    width: 72.7%;
+    margin-left: 20px;
+}
+
+span{
+    color: blue;
+}
+
+.painel{
+    background-color: black;
+    text-transform: uppercase;
+    color: darkred;
+    margin-top:-13px;
+    font-size: 10px;
+}
+
+.titulo1{
+    color: white;
+    font-size: 18px;
+    background-color: rgb(194, 26, 26);
+    width: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 50px;
+}
+
+.titulo2{
+    color: white;
+    background-color: rgb(194, 26, 26);
+    width: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7px;
+    margin-top: -14px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.painel2{
+    background-color: rgb(59, 62, 65);
+    color: white;
+    margin-top: -21px;
+}
+
+.painel2 .h21{
+    padding: 7px;
+    margin-left: 40px;
+    width: 180px;
+}
+
+.h22{
+    font-family: serif;
+    font-size: 17px;
+    width: 350px;
+    padding: 12px;
+    margin-top: -65px;
+    margin-left: 220px;
+    word-spacing: 6px;
+}
+
+footer{
+    background-color: black;
+    height: 400px;
+    margin-top: 100px;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    padding: 0px;
+    width: 300px;
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 0px;
+}
+
+textarea{
+    height: 150px;
+    padding: 0px;
+    width: 300px;
+    font-size: 12px;
+    outline: 0px;
+    resize: none;
+}
+
+select{
+    width: 300px; 
+}
+
+button{
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid rgb(167, 166, 164);
+    background-color: rgb(209, 207, 202);
+}
+
+button:hover{
+    background-color: rgb(167, 166, 164);
+}
+
+/*DEFININDO O PADRÃO*/
+.mediaQuery{
+    width: 600px;
+    height: 300px;
+    background-color: red;
+}
+/*MEDIA QUERY*/
+/*@media only screen and => SERVE PARA EDITAR A PÁGINA COLOCANDO A CONDIÇÃO*/
+@media only screen and (min-width: 250px) and (max-width:500px){/*and (min-width: 250px) and (max-width:500px) => APLICANDO DUAS CONDIÇÕES. SE O TAMANHO DA DIV FOR MENOR QUE 100PX NÃO SERÁ APLICADO AS DEFINIÇÕES NO .mediaQuery*/
+/*(max-width:500px) => CONDIÇÃO DE ESTRUTURA PARA O TAMANHO DA TELA*/
+    .mediaQuery{
+        background-color: green;/*AO DIMINUIR O TAMANHO DA TELA A COR VAL ALTERAR PARA VERDE*/
+        width: 250px;/*AO DIMINUIR O TAMANHO DA TELA A LARGURA DA DIV DIMINUI TAMBÉM*/
+    }
+
+}
+/*
+@media only screen and (orientation:landscape){/*orientation:landscape => QUANDO O CELULAR FICAR DEITADO É APLICADO O CSS
+        .mediaQuery{
+            background-color: green;
+            width: 250px;
+        }
+    
+    }
+*/
