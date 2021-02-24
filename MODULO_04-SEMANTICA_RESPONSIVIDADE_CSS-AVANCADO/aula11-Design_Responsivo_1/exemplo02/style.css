@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+}
+.topo{
+    max-width: 800px;/*FAZENDO DESSA FORMA A DIV ACOMPANHA CONFORME É ALTERADO O TAMANHO DA TELA*/
+    width: 100%;/*FAZENDO DESSA FORMA A DIV ACOMPANHA CONFORME É ALTERADO O TAMANHO DA TELA*/
+    height: 100px;
+    margin: auto;
+    background-color: yellow;
+}
+.logo{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: red;
+}
+.menu{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: teal;
+}
+.corpo{
+    max-width: 800px;/*FAZENDO DESSA FORMA A DIV ACOMPANHA CONFORME É ALTERADO O TAMANHO DA TELA*/
+    width: 100%;/*FAZENDO DESSA FORMA A DIV ACOMPANHA CONFORME É ALTERADO O TAMANHO DA TELA*/
+    height: 200px;
+    margin: auto;
+    background-color: tomato;
+}
+.rodape{
+    max-width: 800px;/*FAZENDO DESSA FORMA A DIV ACOMPANHA CONFORME É ALTERADO O TAMANHO DA TELA*/
+    width: 100%;/*FAZENDO DESSA FORMA A DIV ACOMPANHA CONFORME É ALTERADO O TAMANHO DA TELA*/
+    height: 100px;
+    margin: auto;
+    background-color: yellowgreen;
+}
+
+@media only screen and (max-width:500px){/*MUDANDO O LAYOUT COLOCANDO CADA COLUNA UMA EMBAIXO DA OUTRA*/
+    .topo{
+        height: 200px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    
+}
