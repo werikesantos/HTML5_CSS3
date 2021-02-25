@@ -1,0 +1,71 @@
+*{
+    /*TODA TAG SEGUE ESSA ORGEM*/
+    /*TAG*/
+    /*PADDING*/
+    /*BORDER*/
+    /*MARGIN*/
+
+    /*ACOMPANHE A INSPEÇÃO(F12) DA PÁGINA QUANTO CADA ÁREA POSSUÍ ENTRE TAMANHO, ALTURA ETC...*/
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.corpo{
+    background-color: springgreen;
+    width: 1349px;/*LARGURA TOTAL: width: 1366px;*/
+    height: 668px;/*ALTURA TOTAL: height: 668px;*/
+    position: relative;
+}
+
+.card1{
+    position: absolute;
+    background-color: rgb(152, 214, 183);
+    width: 224px;
+    height: 300px;
+    margin: 184px 77px;
+    border-radius: 20px;
+    border: rgb(14, 202, 108) solid 4px;
+}
+
+.card2{
+    position: absolute;
+    background-color: rgb(152, 214, 183);
+    width: 224px;
+    height: 300px;
+    margin: 184px 321px;
+    border-radius: 20px;
+    border: rgb(14, 202, 108) solid 4px;
+}
+
+.card3{
+    position: absolute;
+    background-color: rgb(152, 214, 183);
+    width: 224px;
+    height: 304px;
+    margin: 184px 566px;
+    border-radius: 20px;
+    border: rgb(14, 202, 108) solid 4px;
+}
+
+.card4{
+    position: absolute;
+    background-color: rgb(152, 214, 183);
+    width: 224px;
+    height: 300px;
+    margin: 184px 809px;
+    border-radius: 20px;
+    border: rgb(14, 202, 108) solid 4px;
+}
+
+.card5{
+    position: absolute;
+    background-color: rgb(152, 214, 183);
+    width: 224px;
+    height: 300px;
+    margin: 184px 1053px;
+    border-radius: 20px;
+    border: rgb(14, 202, 108) solid 4px;
+}
+
+

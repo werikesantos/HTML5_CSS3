@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+
+        <head>
+
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>aula06-A base geral do CSS</title>
+
+        </head>
+
+        <body>
+
+            <!--id="titulo" => NÃO PODE TER O NOME REPETIDO E PARA SER REFERENCIADO NO CSS #titulo{}-->
+            <h1 id="titulo">Título da história</h1>
+
+            <!--class="texto" => PODE SER REUTILIZADO EM OUTRAS TAGS PARA RECEBER A FORMATAÇÃO.
+                E PARA SER REFERENCIADO NO CSS .texto{}-->
+            <p class="texto">Era uma vez, etc etc etc...</p>
+
+            <!--ATENÇÃO: id="" => NÃO PODE SER REUTILIZADO EM OUTRAS TAGS, ELE É UNICO PARA UMA ÚNICA TAG!
+                JÁ O ATRIBUTO class="texto" => PODE SER REUTILIZADO EM OUTRAS TAGS!
+            -->
+             
+            <a href="https://www.google.com/" style="font-size: 18px;">Ir para o site do Google</a>  
+            <br/><br/>
+
+            <img src="https://www.google.com/logos/google.jpg" alt="Logotipo do Google" style="width: 100px;">
+            <br/><br/>
+
+            <!--VEJA UM EXEMPLO DE REUTILIZAÇÃO DA class="texto":-->
+            <button class="texto">Clique em mim</button>
+            <br/><br/>
+
+            <h3>Lista de Bolo:</h3>
+
+            <ul>
+                <li>1 pacote de 500g de massa fresca</li>
+                <li>500g de carne moída (patinho, maminha ou outra de sua preferência)</li>
+                <li>5 tomates sem pele amassados ou batidos no liquidificador</li>
+                <li>4 dentes de alho picadinhos</li>
+                <li class="texto">1 cebola inteira</li><!--VEJA UM EXEMPLO DE REUTILIZAÇÃO DA class="texto":-->
+                <li>Parmesão ralado a gosto para gratinar</li>
+            </ul>
+
+        </body>
+
+    </html>

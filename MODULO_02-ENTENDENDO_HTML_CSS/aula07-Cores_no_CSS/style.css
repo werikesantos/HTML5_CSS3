@@ -1,0 +1,23 @@
+/*TRABALHANDO CORES*/
+#titulo{
+    /*HEXADECIMAL*/
+    /*VAI DE ZERO A 9 E DEPOIS DE A-F*/
+    /*É COMPOSTO POR 6 CARACTERES OU NÚMEROS*/
+
+    /*2 - VERMELHO - DOIS PARA VERMELHO*/
+    /*2 - VERDE - DOIS PARA VERDE*/
+    /*2 - AZUL - DOIS PARA AZUL*/
+    background-color: #1e3a9c;
+}
+
+.texto{
+    /*RGB*/
+    /*FUNCIONA COMO SE FOSSE DE 0% A 100%*/
+    /*ONDE 0 SERIA A PRIMEIRA PORCENTAGEM DO VERMELHO E O MÁXIMO 255*/
+
+    /*RED  -> R = 0 */
+    /*GREEN-> G = 200 */
+    /*BLUE -> B = 255 */
+
+    background-color: rgb(0,200,255);
+}

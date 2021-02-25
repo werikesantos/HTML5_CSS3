@@ -1,0 +1,21 @@
+body{
+    margin: 0px
+}
+
+/*TAG PAI*/
+.exemplo{
+    margin-left: 424.5px;/*ALTURA TOTAL: height: 668px;*/
+    margin-top: 159px;
+    background-color: black;
+    width: 500px;
+    height: 350px;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+/*TAG FILHA*/
+img{
+    width: inherit;/*inherit => HERDA O QUE FOI DEFINIDO NA TAG PAI*/
+    max-height: 250px;/*AQUI ESTABELECE O TAMANHO MÁXIMO OU MINIMO DE ALTURA/LARGURA DE UMA TAG.*/
+    /*SE FOR NECESSARIO REDEFINIR O TAMANHO/ALTURA O MESMO SERÁ CONFORME O ESTABELECIDO NO 'min/max'*/
+    margin-top: 90px;
+}

@@ -1,0 +1,17 @@
+#titulo{
+    color: green;
+}
+
+.texto{
+    color: darkorchid;
+}
+
+/*VEJA COMO ACESSAR UM ELEMENTRO QUE PERTENCE OUTRO ELEMENTO:*/
+ul li{
+    color: darkred;
+}
+
+/*ATRIBUINDO AS MESMAS PROPRIEDADES PARA DOIS ELEMENTOS:*/
+h1, p{
+    font-size: 30px;
+}

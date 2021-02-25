@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    margin: 0px;
+    font-size: 17px;
+}
+
+.estrutura{
+    width: 82%;
+    margin: auto;
+}
+
+h1{
+    color: rgba(37, 38, 39, 0.918);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+}
+
+.link{
+    font-size: 14px;
+    color: slategray;
+}
+
+.conteudo{
+    width: 72.7%;
+    margin-left: 20px;
+}
+
+.subTitulo{
+    color: rgba(37, 38, 39, 0.918);
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+}
+
+.autor{
+    font-size: 13px;
+    line-height: 22px;
+}
+
+img{
+    margin-left: -40px;
+}
+
+figcaption{
+    margin-left: -40px;
+}
+
+h5{
+    color: rgb(78, 84, 90);
+    margin-left: -40px; 
+    margin-top: 10px;
+}
+
+p{
+    color: rgba(37, 38, 39, 0.918);
+    font-size: 18px;
+    /*font-weight: bolder; FORMATANDO O TEXTO E DEIXANDO EM NEGRITO*/
+    font-family: sans-serif;/*ALTERANDO O TIPO DA FONT*/
+    text-align: left;/*ALINHAMENTO DO TEXTO*/
+    /*letter-spacing: 1px; ESPAÇAMENTO ENTRE AS LETRAS*/
+    /*word-spacing: 2px; ESPAÇAMENTO ENTRE AS PALAVRAS*/
+    line-height: 30px;/*ESPAÇAMENTO ENTRE AS LINHAS*/
+
+    /*PRIMEIRO DEFINE: SOMBRA DIREITA*/
+    /*SEGUNDO DEFINE: SOMBRA PARA BAIXO*/
+    /*TERCEIRO DEFINE: A FUMAÇA*/
+    /*QUARTO DEFINE: A COR*/
+    
+    /*text-shadow: 1px 2px 2px darkred;*/
+}
+
+.painel{
+    background-color: black;
+    text-transform: uppercase;/*TRANSFORMA EM CAIXA ALTA O TEXTO*/
+    color: darkred;
+    margin-top:-13px;
+    font-size: 10px;
+}
+
+.titulo1{
+    color: white;
+    font-size: 18px;
+    background-color: rgb(194, 26, 26);
+    width: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 50px;
+}
+
+.titulo2{
+    color: white;
+    background-color: rgb(194, 26, 26);
+    width: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7px;
+    margin-top: -14px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.painel2{
+    background-color: rgb(59, 62, 65);
+    color: white;
+    margin-top: -21px;
+}
+
+.painel2 .h21{
+    padding: 7px;
+    margin-left: 40px;
+    width: 180px;
+}
+
+.h22{
+    font-family: serif;
+    font-size: 17px;
+    width: 350px;
+    padding: 12px;
+    margin-top: -65px;
+    margin-left: 220px;
+    word-spacing: 6px;/*ESPAÇAMENTO ENTRE AS PALAVRAS*/
+}
+
+a{
+    color: rgb(0, 119, 255);
+    text-decoration:none; /*SERVE PARA TIRAR O SUBLINHADO*/
+}
+
+footer{
+    background-color: black;
+    height: 400px;
+    margin-top: 100px;
+}
