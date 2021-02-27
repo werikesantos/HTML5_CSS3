@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    margin: 0px;
+}
+    body{
+        margin:0px;
+        margin: 0px;
+    }
+
+header{}
+    .cabecalho{
+        max-width: 100%;
+        width: 800px;
+        height: 140px;
+        margin: auto;
+        background-color: rgb(255, 136, 0);
+    }
+    .titulo{
+        max-width: 100%;
+        width: 800px;
+        height: 100%;
+        /*background-color: green;*/
+    }
+    header .cabecalho .titulo h1{
+        /*background-color: red;*/
+        padding-top: 40px;
+        height: 50%;
+        font-size: 50px;
+        text-align: center;
+    }
+
+section{}
+    .conteudo{
+        max-width: 100%;
+        width: 800px;
+        height: 420px;
+        margin: auto;
+        /*background-color: green;*/
+    }
+    nav{
+        width: 25%;
+        height: 420px;
+        float: left;
+        /*background-color: teal;*/
+    }
+    nav .menuMobile{
+        display: none;
+    }
+    article{
+        width: 50%;
+        height: 420px;
+        float: left;
+        /*background-color: brown;*/
+    }
+    aside{
+        width: 25%;
+        height: 420px;
+        float: left;
+        background-color: rgb(102, 112, 112);
+    }
+footer{
+    max-width: 100%;
+    width: 800px;
+    height: 108px;
+    margin: auto;
+    background-color: rgb(39, 39, 37);
+}
+
+
+@media only screen and (max-width:578px){
+    section{}
+        nav{
+            width: 100%;
+            height: 25%;
+        }
+        nav .menuMobile{
+            display: block;
+            padding-top: 40px;
+            margin: auto;
+            width: 40px;
+            height: 40px;
+        }
+        nav .menuMobi{
+            display: none;
+        }
+        article{
+            width: 100%;
+            height: 80%;
+        }
+        aside{
+            width: 100%;
+            height: 15%;
+        }
+        
+    footer{
+        float: left;
+        /*background-color: red;*/
+    }
+}
