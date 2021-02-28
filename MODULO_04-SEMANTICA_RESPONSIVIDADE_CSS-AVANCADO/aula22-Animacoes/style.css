@@ -1,0 +1,34 @@
+/*ANIMAÇÃO*/
+@keyframes nomeAnimacao {
+    0% {background-color: red;top:0;left:0}
+    25% {background-color: yellow; color: red; top:0;left:800px;}
+    50% {background-color: blue; color: yellow; top:400px;left:800px;}
+    75% {background-color: green; color: blue; top:400px;left:0;}
+    100% {background-color: red;color: green; top:0;left:0;}   
+ }/*A PARTE DA PORCENTAGEM É REFERENTE AO TOTAL DA DURAÇÃO DA ANIMAÇÃO QUE SERÁ DEFINIDA NA SUA CHAMADA-DURAÇÃO*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    width: 300px;
+    height: 28px;
+    padding: 20px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    position: relative;/*O VALOR PADRÃO DESSA TAG É 'STATIC', E SE NÃO ALTERAR PARA POSITION RELATIVE NÃO FUNCIONA*/
+    animation-name: nomeAnimacao;/*CHAMADA DA ANIMAÇÃO*/
+    animation-duration: 15s;/*DURAÇÃO DA ANIMAÇÃO*/
+    animation-delay: 2s;/*SERVE PARA NÃO INICIAR RAPIDAMENTE A ANIMAÇÃO APLICANDO UM 2SEGUNDOS PARA INICIAR*/
+    /*animation-iteration-count: 4;*/ /*VAI REPETIR 4 VEZES A ANIMAÇÃO*/
+    animation-iteration-count: infinite;/*AO INVES DE COLOCAR O NÚMERO 4, PODE COLOCAR NO MODO DE REPETIÇÃO INFINITA*/
+}
+  
+
