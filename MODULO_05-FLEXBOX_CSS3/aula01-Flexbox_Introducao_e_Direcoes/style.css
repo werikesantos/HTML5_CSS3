@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section .conteiner1{/*DEFINIÇÕES DO FLEX*/
+    display: flex;/*HABILITANDO O FLEX*/
+    flex-direction: row;/*SERVE PARA ORGANIZAR O FLEX EM LINHA*/
+    background-color: cadetblue;
+}
+section .conteiner2{
+    display: flex;
+    flex-direction: column;/*SERVE PARA ORGANIZAR O FLEX EM COLUNA*/
+    background-color: cadetblue;
+}
+section .conteiner3{
+    display: flex;
+    flex-direction: row-reverse;/*SERVE PARA ORGANIZAR O FLEX EM LINHA INVERTIDA*/
+    background-color: cadetblue;
+}
+section .conteiner4{
+    display: flex;
+    flex-direction: column-reverse;/*SERVE PARA ORGANIZAR O FLEX EM COLUNA INVERTIDA*/
+    background-color: cadetblue;
+}
+section .conteiner1 div, 
+section .conteiner2 div,
+section .conteiner3 div,
+section .conteiner4 div{
+    background-color: red;/*APLICANDO A ESTILIZAÇÃO DAS DIVs*/
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+/*TRABALHANDO COM OS TAMANHOS DOS FLEX QUE SÃO DISTRIBUÍDOS AUTOMATICAMENTE AO DEFINIR PELO 'FLEX 1'...N...*/
+section .conteiner5{
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+}
+section .conteiner5 .div1{/*NESSE EXEMPLO CADA DIV RECEBEU UMA CLASSE PARA SER ESTILIZADA INDEPENDENTEMENTE*/
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+section .conteiner5 .div2{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+section .conteiner5 .div3{
+    flex: 3;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+/**/
+section .conteiner6{
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+}
+section .conteiner6 .div4{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+section .conteiner6 .div5{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+section .conteiner6 .div6{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+section .conteiner6 .div7{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
