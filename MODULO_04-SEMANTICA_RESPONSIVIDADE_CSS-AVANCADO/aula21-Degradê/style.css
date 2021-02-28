@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+
+    /*TRABALHANDO COM O DEGRADÊ*/
+    background-color: rgb(141, 141, 141);/*ESSA SERÁ A COR PADRÃO CASO NÃO FUNCIONE O DEGRADÊ*/
+
+    /*1-DIREÇÃO / 2-PRIMEIRA COR / 3- SEGUNDA COR...N...*/
+    background: linear-gradient(-75deg,white,blue,red);
+    background: -moz-linear-gradient(-75deg,white,blue,red);/*-moz- => SERVE PARA RODAR NO NAVEGADOR MOZILLA*/
+    background: -o-linear-gradient(-75deg,white,blue,red);/*-o- => SERVE PARA RODAR NO NAVEGADOR OPERA*/
+    background: -webkit-linear-gradient(-75deg,white,blue,red);/*-webkit- => SERVE PARA RODAR NO NAVEGADOR SAFARI*/
+    /*ATENÇÃO! DEVE SEMPRE COLOCAR AS MESMAS PROPRIEDADES PARA OS DEMAIS NAVEGADORES QUANDO USAR O GRADIENTE*/
+
+}
+    
