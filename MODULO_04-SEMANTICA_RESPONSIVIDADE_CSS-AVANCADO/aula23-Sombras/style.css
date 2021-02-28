@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    width: 300px;
+    height: 28px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    margin: auto;
+    margin-top: 100px;
+    
+    /*1-VALOR DA DISTANCIA HORIZONTAL / 2-VALOR DA DISTANCIA VERTICAL /3-VALOR DA QUANTIDADE DE SOMBRA / 4-COR DA SOBRA*/
+    box-shadow: 10px 10px 5px rgb(112, 110, 110);
+}
