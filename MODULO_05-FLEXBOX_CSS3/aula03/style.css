@@ -1,0 +1,81 @@
+/*====================================================================================================*/
+/*EXEMPLO 1: REORDENAÇÃO*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section .conteiner{
+    display: flex;
+    height: 500px;
+    flex-direction: row;/*ORGANIZA EM LINHAS*/
+    justify-content: center;/*SIPONHA QUE TENHA SOMENTE 5 CARDS NO HTML AO INVES DE 15, CONFORME FOI CONSTRUÍDO. ESSE ATRIBUTO IRÁ ORGANIZAR OS 5 CARDS NO CENTRO DA TELA.*/
+    align-items: flex-start;/*ORGANIZA TODOS OS CARDS NA PARTE SUPERIOR DA PÁGINA. PODENDO ORGANIZAR AO CENTRO OU NA PARTE INFERIOR DA PÁGINA*/
+    background-color: cadetblue;
+}
+
+section .conteiner1{
+    align-self: center;/*SERVE PARA ALINHA ESPECIFICAMENTO UM DETERMINADO ELEMENTO DO FLEX*/
+}
+
+section .conteiner div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+/*====================================================================================================*/
+/*EXEMPLO 2: REORDENAÇÃO*/
+
+section .conteiner2{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: darkgray;
+}
+
+/*TODOS OS CARDS ESTÃO ORGANIZADOS POR PADRÃO NA POSIÇÃO 0*/
+/*PARA REORGANIZAR BASTA ATRIBUIR UMA NOVA ORDENAÇÃO NA POSIÇÃO 1*/
+/*NESTE EXEMPLO A DIV 10 VAI PARA A ULTIMA POSIÇÃO*/
+/*COLOCANDO NA PRIMEIRA POSIÇÃO, BASTA ORDENAR COM O (-1). COLOCAR NA SUA POSIÇÃO PADRÃO (0). COLOCAR NA ULTIMA POSIÇÃO (1)*/
+section .conteiner2 .div10{
+    order: -1;
+    background-color: chartreuse;
+}
+
+section .conteiner2 div{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*====================================================================================================*/
+/*EXEMPLO 3: ALINHAMENTO DESSES CARDS*/
+
+section .conteiner3{
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap; /*QUANDO ACABAR O ESPAÇO DO CARD, USANDO ESSE ATRIBUTO SERÁ CONTINUADO NA LINHA DE BAIXO*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: darkviolet;
+    align-content: flex-end;/*PARA ALINHA TODO O CONTEÚDO NA PARTE INFERIOR, BASTA COLOCAR ESSE ATRIBUTO*/
+    /*space-around - ESPAÇO MAIS ORGANIZADO*/
+    /*space-between - ESPAÇO MUITO GRANDE*/
+}
+
+section .conteiner3 div{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
