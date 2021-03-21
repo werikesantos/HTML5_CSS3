@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    border: 2px solid black;
+    width: 100px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+
+    /*CONTEÚDO SAINDO DA DIV*/
+    word-wrap: break-word;/*USAR ESSA PROPRIEDADE PARA COLOCAR O CONTEÚDO DENTRO DA DIV*/
+
+    /*overflow: hidden; => É POSSÍVEL USAR ESSA PROPRIEDADE, PORÉM ELA ESCONDE O CONTEÚDO DENTRO DA DIV*/
+}
+h1{
+    text-align: center;  
+}

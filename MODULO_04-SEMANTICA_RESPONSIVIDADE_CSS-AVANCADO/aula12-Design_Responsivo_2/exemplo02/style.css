@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+}
+header{
+    
+}
+.topo{
+    width: 800px;
+    height: 140px;
+    margin: auto;
+    background-color: yellow;
+}
+.corpo{
+    width: 800px;
+    height: 420px;
+    margin: auto;
+    background-color: green;
+}
+.menu{
+    width: 20%;
+    height: 420px;
+    float: left;
+    background-color: teal;
+}
+.conteudo{
+    width: 60%;
+    height: 420px;
+    float: left;
+    background-color: brown;
+}
+.secundario{
+    width: 20%;
+    height: 420px;
+    float: left;
+    background-color: aqua;
+}
+.rodape{
+    width: 800px;
+    height: 108px;
+    margin: auto;
+    background-color: yellow;
+}

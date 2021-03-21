@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section .conteiner1{
+    display: flex;
+    flex-wrap: wrap;/*PARA DEIXAR TODOS COM O TAMANHO DE 200PX SÓ É POSSÍVEL EM DUAS LINHAS, E PARA FAZER ISSO BASTA USAR O FLEX-WRAP: WRAP;*/
+    /*flex-direction: row; => POR PADRÃO JÁ ESTÁ DEFINIDO*/
+    background-color: cadetblue;
+}
+
+section .conteiner1 div{
+    /*width: 30px; => POSSO DEFINIR COM 30PX TBM*/
+    /*width: 200px; => COM 200PX NÃO É POSSÍVEL ALINHA TODOS COM ESSE TAMANHO. ENTÃO TODAS SERAM REALINHADAS PARA CABER DENTRO DO .CONTEINER*/
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*EXEMPLO 2 = CENTRALIZANDO*/
+section .conteiner2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(51, 189, 194);
+    justify-content: center;/*ALINHA NA DIREÇÃO QUE ESTA SENDO EXIBIDA. NO CASO flex-direction: row;*/
+    align-items: center;/*ALINHA NA VERTICAL*/
+    height: 400px;
+}
+
+section .conteiner2 div{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 255, 76);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*EXEMPLO 3 = CENTRALIZADO E COM ESPAÇAMENTOS IGUAIS*/
+section .conteiner3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(233, 140, 0);
+    justify-content: space-around;/*ESSA É A PROPRIEDADE*/
+    align-items: center;
+    height: 400px;
+}
+
+section .conteiner3 div{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(144, 175, 4);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*EXEMPLO 4 = CENTRALIZADO E COM MAIS ESPAÇAMENTOS IGUAIS*/
+section .conteiner4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(233, 0, 0);
+    justify-content: space-between;/*ESSA É A PROPRIEDADE*/
+    align-items: center;
+    height: 400px;
+}
+
+section .conteiner4 div{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(189, 11, 212);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}

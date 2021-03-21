@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    max-width: 100%;
+    width: 180px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    /*TRABALHANDO COM AS BORDAS*/
+    border-top-left-radius: 10px;/*DETALHANDO DESSA FORMA SOMENTE A BORDA DO LADO ESQUERDO RECEBE UM ARREDONDAMENTO*/
+    border-bottom-right-radius: 50px;/*POSSO DEFINIR QUALQUER LADO DA BORDA COMO EU QUISER*/
+    background-color: rgb(141, 141, 141);
+}
+    .conteudo{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(141, 141, 141);
+    }
+    form input{
+        border-top-left-radius: 10px;/*O MESMO PROCEDIMENTO PODE SER APLICADO A BORDA DO INPUT*/
+        border-bottom-right-radius: 15px;/*QUALQUER ELEMENTO PODE RECEBER ESSAS MODIFICAÇÕES*/
+    }
+    h1{
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        color: rgb(48, 48, 48);
+    }
+    h6{
+        margin-bottom: -18px;
+        font-size: 18px;
+        padding: 0px;
+        color: rgb(37, 37, 37);
+    }
