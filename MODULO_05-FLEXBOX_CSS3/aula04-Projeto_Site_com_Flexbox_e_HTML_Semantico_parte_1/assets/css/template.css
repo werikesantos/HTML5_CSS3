@@ -1,0 +1,25 @@
+*{/*TIRANDO O PADRÃO DO NAVEGADOR*/
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;/*SIGNIFICA QUE SERÁ USADO O FLEXBOX*/
+    justify-content: center;/*IRÁ CENTRALIZAR MINHA DIV AO MEIO*/
+    height: 120px;/*DEFININDO A ALTURA DO MEU HEADER*/
+}
+
+header .conteiner{
+    display: flex;/*SIGNIFICA QUE SERÁ USADO O FLEXBOX*/
+    justify-content: space-between;/*SERVE PARA COLOCAR UMA DIV DE UM LADO E O OUTRO DO OUTRO. NOS EXTREMOS DE CADA LADO*/
+    width: 990px;
+}
+
+header .conteiner .logo{
+    display: flex;/*SIGNIFICA QUE SERÁ USADO O FLEXBOX*/
+    align-items: center;/*ALINHANDO O CONTEÚDO AO CENTRO. SÓ FUNCIONA COM O DESPLAY FLEX*/
+}
+
+header .conteiner .menu{
+    background-color: cadetblue;
+}
